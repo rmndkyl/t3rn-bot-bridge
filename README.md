@@ -21,6 +21,20 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
 
 ### LINUX & MAC OS
 
+- Install Prerequites:
+  ```
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+  echo 'export NVM_DIR="$HOME/.nvm"' >> $HOME/.bash_profile
+  echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm' >> $HOME/.bash_profile
+  echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion' >> $HOME/.bash_profile
+  source $HOME/.bash_profile
+  nvm install --lts
+  node -v
+  npm -v
+  sudo apt-get update
+  sudo apt-get upgrade
+  ```
+
 1. Clone project repository
    ```
    git clone https://github.com/rmndkyl/t3rn-bot-bridge.git && cd t3rn-bot-bridge
@@ -114,6 +128,14 @@ To update bot follow this step :
 On Config File
 
 If you did'nt get BRN Point, change the config OP or ARB RAW DATA with yours. Where to get it ? do manual TX from ARB to OP or OP to ARB, and go to explorer and copy the Input Data as HEX. Or you can just copy paste from wallet confirmation approval on input / data section.
+
+## ☕️ Traktir kopinya & Thanks for Supporting us:
+
+- https://sociabuzz.com/layerairdrop/tribe
+- https://saweria.co/LayerAirdrop
+- https://trakteer.id/layerairdrop/tip
+- **EVM : `0x3E0BD1156172c03E497157838f218CDF77Ab2885`**
+- **SOLANA : `4DMvckFnSrm7fymVaPrXULrCq4h1yvfTWq5aHXLpLKsn`**
 
 ## LICENSE
 
