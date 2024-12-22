@@ -1,0 +1,32 @@
+{
+  "name": "t3rn-bridge-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "t3rn bridge Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node index.js",
+    "test": "node test.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json"
+  },
+  "keywords": [
+    "t3rn",
+    "t3rn-bot",
+    "t3rn-bridge-bot",
+    "t3rn-testnet"
+  ],
+  "author": "rmndkyl",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmndkyl/t3rn-bot-bridge.git"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "^6.13.2",
+    "moment-timezone": "^0.5.45",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0"
+  }
+}
