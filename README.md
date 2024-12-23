@@ -54,7 +54,7 @@ A bot designed to automate transactions and bridge assets on the t3rn network, m
    Setup your accounts using PK or Seed
 5. Configure the config
    ```
-   nano config/config.js
+   nano config.js
    ```
    Setup your config using OP / ARB
 6. To start the app run 
